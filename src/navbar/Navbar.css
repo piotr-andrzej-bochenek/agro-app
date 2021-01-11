@@ -1,0 +1,12 @@
+.Navbar {
+    width: 100%;
+    margin: auto;
+}
+
+.Navbar__Search--container {
+    width: 20%;
+}
+
+.Navbar__Search--field {
+    width: 100%;
+}

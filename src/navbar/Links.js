@@ -34,31 +34,30 @@ function Home() {
   };
 
 export default () => (
-
-<Switch>
-    <Route path="/kontakt">
-        <Contact />
-    </Route>
-    <Route path="/cennik">
-        <Price />
-    </Route>
-    <Route path="/goscie">
-        <Guests />
-    </Route>
-    <Route path="/okolica">
-        <Surroundings />
-    </Route>
-    <Route path="/gospodarstwo">
-        <Farm />
-    </Route>
-    <Route path="/domki">
-        <Cabins />
-    </Route>
-    <Route path="/pokoje">
-        <Rooms />
-    </Route>
-    <Route path="/">
-        <Home />
-    </Route>
-</Switch>
-)
+    <Switch>
+        <Route path="/kontakt">
+            <Contact />
+        </Route>
+        <Route path="/cennik">
+            <Price />
+        </Route>
+        <Route path="/goscie">
+            <Guests />
+        </Route>
+        <Route path="/okolica">
+            <Surroundings />
+        </Route>
+        <Route path="/gospodarstwo">
+            <Farm />
+        </Route>
+        <Route path="/domki">
+            <Cabins />
+        </Route>
+        <Route path="/pokoje">
+            <Rooms />
+        </Route>
+        <Route path="/">
+            <Home />
+        </Route>
+    </Switch>
+);
