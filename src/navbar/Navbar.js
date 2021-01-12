@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Container, Icon, Input, Menu, Segment } from 'semantic-ui-react';
-import Links from './Links';
+import { Container, Icon, Input, Menu } from 'semantic-ui-react';
 import './Navbar.css';
 
 export default class MenuSecondary extends Component {
@@ -87,10 +86,6 @@ export default class MenuSecondary extends Component {
             </Menu.Item>
           </Menu.Menu>
         </Menu>
-
-        <Segment>
-          <Links />
-        </Segment>
       </Container>
     );
   };
