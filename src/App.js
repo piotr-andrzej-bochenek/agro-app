@@ -4,6 +4,7 @@ import { Container, Segment } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import Links from './links/Links'
 import Navbar from './navbar/Navbar';
+import Footer from './footer/Footer';
 import './App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <Links />
           </Segment>
         </Router>
-        <footer>Not routed footer</footer>
+        <Footer />
       </Container>
   );
 }
