@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
 
         return (
-            <List horizontal size='tiny'>
+            <List horizontal size='mini' className='App__Footer'>
                 <List.Item>
                     <List.Icon name='call' verticalAlign='middle' />
                     <List.Content>

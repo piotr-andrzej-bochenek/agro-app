@@ -4,5 +4,12 @@
 }
 
 .App__Segment {
-  background-color: lightgreen;
+  background-color: rgb(164, 243, 164) !important;
+  padding-bottom: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.App__Footer {
+  padding-top: 0.5em !important;
+  margin-top: 0.5em !important;
 }
