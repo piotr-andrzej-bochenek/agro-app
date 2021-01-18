@@ -12,13 +12,13 @@ import './App.css';
 function App() {
   return (
       <Container className="App">
-        <div className='App__header--h1'>
+        <div className='App__header--container'>
           <Image src={img1} centered rounded/>
-          <h1 className='App__header--h2'>
-            <Image src={img2} size='tiny' centered/>
+          <h2 className='App__header--title'>
+            <Image src={img2} avatar/>
             Agro-Wczasy Barbara i Czesław Chaber
-            <Image src={img2} size='tiny' centered/>
-          </h1>
+          </h2>
+          <i className='App__header--subtitle'>Gospodarstwo agroturystyczne na Pomorzu Środkowym +48 999 999 999</i>
         </div>
         <Router>
           <Navbar />

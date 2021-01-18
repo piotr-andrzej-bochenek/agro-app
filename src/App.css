@@ -3,12 +3,18 @@
   background-color: lightgreen;
 }
 
-.App__header--h1 {
+.App__header--container {
+  background-color: rgb(164, 243, 164);
   margin: 0;
 }
 
-.App__header--h2 {
+.App__header--title {
   margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.App__header--subtitle {
+  font-size: 0.8em;
 }
 
 .App__Segment {
