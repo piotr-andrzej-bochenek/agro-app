@@ -1,9 +1,12 @@
 .Home__img--container {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    width: 100%;
 }
 
-.Home__img {
-    width: 33.3333%;
+.Home__img  {
     padding: 0.5em;
+}
+
+.Home__img img {
+    margin: 0 auto;
 }

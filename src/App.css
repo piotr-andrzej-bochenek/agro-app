@@ -19,8 +19,11 @@
 
 .App__Segment {
   background-color: rgb(164, 243, 164) !important;
-  padding-bottom: 0.5em !important;
-  margin-bottom: 0.5em !important;
+}
+
+.App__Segment p {
+  margin: 1em 0 1em;
+  text-align: justify;
 }
 
 .App__Footer {
