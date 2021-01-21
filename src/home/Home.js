@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { Image } from 'semantic-ui-react';
+import img1 from '../assets/images/img_link_01.jpg';
+import img2 from '../assets/images/img_link_02.jpg';
+import img3 from '../assets/images/img_link_03.jpg';
+import './Home.css';
 
 export default class Home extends Component {
   
@@ -6,8 +11,15 @@ export default class Home extends Component {
 
       return (
         <div>
-            <h2>Agro-Wczasy Barbara i Czesław Chaber</h2>
-            <footer>Agro-Wczasy Barbara i Czesław Chaber</footer>
+            <h3>Wieś blisko morza - spokój, wypoczynek i atrakcje na wyciągnięcie ręki!</h3>
+            <p>Zapraszamy do Cisowa, malowniczej osady położonej w sercu polskiego Pomorza, znajdującej się 3 km od Darłowa i 2,5 km od morza Bałtyckiego.</p>
+            <p>Jest to doskonałe miejsce dla tych, którzy chcą wypocząć nad polskim morzem, a jednocześnie nie przepadają za tłokiem i hałasem letnich miejscowości. Znajdziecie tu spokój, ciszę i możliwość kontaktu z pomorską przyrodą.</p>
+            <p> Klimat i urok naszych szerokich, jeszcze dzikich plaż przyniosą chwile radości i zapewnią miły wypoczynek. Czyste powietrze z dużą ilością jodu, lasy i zieleń, a także cisza i spokojna okolica są gwarancją udanego urlopu.</p>
+            <div className='Home__img--container'>
+              <Image className='Home__img' src={img1} />
+              <Image className='Home__img' src={img2} />
+              <Image className='Home__img' src={img3} />
+            </div>
         </div>
       );
     };
