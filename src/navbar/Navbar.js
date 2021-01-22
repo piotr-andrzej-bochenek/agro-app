@@ -66,9 +66,9 @@ export default class MenuSecondary extends Component {
 
           <Menu.Item
             as={Link}
-            to={'/cennik'}
-            name='cennik'
-            active={activeItem === 'cennik'}
+            to={'/oferta'}
+            name='oferta'
+            active={activeItem === 'oferta'}
             onClick={this.handleItemClick}
           />
 

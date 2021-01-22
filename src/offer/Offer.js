@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Prices extends Component {
+export default class Offer extends Component {
   
     render() {
 
       return (
-        <h2>Cennik</h2>
+        <h2>Oferta</h2>
       );
     };
   };

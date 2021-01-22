@@ -6,7 +6,7 @@ import Cabins from '../cabins/Cabins';
 import Farm from '../farm/Farm';
 import Surroundings from '../surroundings/Surroundings';
 import Guests from '../guests/Guests';
-import Prices from '../prices/Prices';
+import Offer from '../offer/Offer';
 import Contact from '../contact/Contact';
 
 export default function Links() {
@@ -15,8 +15,8 @@ export default function Links() {
             <Route path="/kontakt">
                 <Contact />
             </Route>
-            <Route path="/cennik">
-                <Prices />
+            <Route path="/oferta">
+                <Offer />
             </Route>
             <Route path="/goscie">
                 <Guests />
