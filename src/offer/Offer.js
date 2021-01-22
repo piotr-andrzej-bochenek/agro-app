@@ -8,7 +8,7 @@ export default class Offer extends Component {
       <div>
         <h3>Oferta</h3>
         <p>Opis oferty</p>
-      </div>      
+      </div>
     );
   };
 };

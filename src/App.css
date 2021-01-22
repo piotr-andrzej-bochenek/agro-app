@@ -3,25 +3,25 @@
   background-color: lightgreen;
 }
 
-.App__header--container {
+.Header__container {
   background-color: rgb(164, 243, 164);
   margin: 0;
 }
 
-.App__header--title {
+.Header__title {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }
 
-.App__header--subtitle {
+.Header__subtitle {
   font-size: 0.8em;
 }
 
-.App__Segment {
+.Segment {
   background-color: rgb(164, 243, 164) !important;
 }
 
-.App__Segment p, .list {
+.Segment p, .list {
   margin: 1em 0 1em;
   text-align: justify;
 }

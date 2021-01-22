@@ -3,7 +3,7 @@ import { Divider, Image } from 'semantic-ui-react';
 import { CarouselProvider, Image as ImageC, Slide, Slider } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-import CarouselDotGroup from '../components/DotGroup';
+import CarouselDotGroup from '../components/CarouselDotGroup';
 import img01 from '../assets/photos/rooms/pokoje_01.jpg';
 import img02 from '../assets/photos/rooms/pokoje_02.jpg';
 import img03 from '../assets/photos/rooms/pokoje_03.jpg';
