@@ -27,7 +27,12 @@
 }
 
 .Segment__carousel--container {
-  width: 300px;
+  width: 90%;
+  margin: auto;
+}
+
+.horizontalSlider___281Ls {
+  width: 400px;
   margin: auto;
 }
 
