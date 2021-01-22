@@ -21,7 +21,16 @@
   background-color: rgb(164, 243, 164) !important;
 }
 
-.App__Segment p {
+.App__Segment p, .list {
   margin: 1em 0 1em;
   text-align: justify;
+}
+
+.Segment__carousel--container {
+  width: 300px;
+  margin: auto;
+}
+
+.Footer {
+  text-align: center;
 }

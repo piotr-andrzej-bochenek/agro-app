@@ -7,7 +7,7 @@ export default class Footer extends Component {
 
         return (
             <Container>
-                <List horizontal size='mini' verticalAlign='middle' >
+                <List horizontal size='mini' verticalAlign='middle' className='Footer'>
                     <List.Item>
                         <List.Icon name='call' />
                         <List.Content>
