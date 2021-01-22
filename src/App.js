@@ -26,7 +26,7 @@ function App() {
             <Links />
           </Segment>
         </Router>
-        <Footer className='App__Footer'/>
+        <Footer />
       </Container>
   );
 }
