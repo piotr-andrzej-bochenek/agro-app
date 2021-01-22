@@ -35,6 +35,10 @@
   height: 120px !important;
 }
 
+.Contact__list {
+  text-align: center;
+}
+
 .Footer {
   text-align: center;
 }

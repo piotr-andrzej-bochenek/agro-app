@@ -9,7 +9,7 @@ export default class Contact extends Component {
       return (
         <div>
           <h3>Zapraszamy do kontaktu!</h3>
-          <List horizontal verticalAlign='middle' >
+          <List horizontal verticalAlign='middle' className='Contact__list'>
               <List.Item>
                   <List.Icon name='call' />
                   <List.Content>
