@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Container, Icon, Input, Menu, Segment } from 'semantic-ui-react';
-import Links from './Links';
+import { Container, Icon, Input, Menu } from 'semantic-ui-react';
+
 import './Navbar.css';
 
 export default class MenuSecondary extends Component {
@@ -67,9 +67,9 @@ export default class MenuSecondary extends Component {
 
           <Menu.Item
             as={Link}
-            to={'/cennik'}
-            name='cennik'
-            active={activeItem === 'cennik'}
+            to={'/oferta'}
+            name='oferta'
+            active={activeItem === 'oferta'}
             onClick={this.handleItemClick}
           />
 
@@ -81,16 +81,12 @@ export default class MenuSecondary extends Component {
             onClick={this.handleItemClick}
           />
 
-          <Menu.Menu className='Navbar__Search--container' position='right'>
-            <Menu.Item className='Navbar__Search--field'>
+          <Menu.Menu className='Navbar__search--container' position='right'>
+            <Menu.Item className='Navbar__search--field'>
               <Input icon='search' placeholder='Szukaj...' />
             </Menu.Item>
           </Menu.Menu>
         </Menu>
-
-        <Segment>
-          <Links />
-        </Segment>
       </Container>
     );
   };

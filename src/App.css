@@ -1,3 +1,49 @@
 .App {
   text-align: center;
+  background-color: lightgreen;
+}
+
+.Header__container {
+  background-color: rgb(164, 243, 164);
+  margin: 0;
+}
+
+.Header__title {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.Header__subtitle {
+  font-size: 0.8em;
+}
+
+.Segment {
+  background-color: rgb(164, 243, 164) !important;
+}
+
+.Segment p, .list {
+  margin: 1em 0 1em;
+  text-align: justify;
+}
+
+.Segment__carousel--container {
+  width: 90%;
+  margin: auto;
+}
+
+.horizontalSlider___281Ls {
+  width: 400px;
+  margin: auto;
+}
+
+.Segment__img--container img {
+  height: 120px !important;
+}
+
+.Contact__list {
+  text-align: center;
+}
+
+.Footer {
+  text-align: center;
 }
