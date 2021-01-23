@@ -28,88 +28,100 @@ export default class Guests extends Component {
     return (
       <div>
         <h3>Goście</h3>
-        <p>Wybrane opinie gości</p>
-        
-        <div className='Segment__carousel--container'>
-          <CarouselProvider
-            naturalSlideWidth={1}
-            naturalSlideHeight={1}
-            totalSlides={16}
-          >
-            <Slider>
-              <Slide index={0}>
-                <ImageC src={img01} />
-              </Slide>
-              <Slide index={1}>
-                <ImageC src={img02} />
-              </Slide>
-              <Slide index={2}>
-                <ImageC src={img03} />
-              </Slide>
-              <Slide index={3}>
-                <ImageC src={img04} />
-              </Slide>
-              <Slide index={4}>
-                <ImageC src={img05} />
-              </Slide>
-              <Slide index={5}>
-                <ImageC src={img06} />
-              </Slide>
-              <Slide index={6}>
-                <ImageC src={img07} />
-              </Slide>
-              <Slide index={7}>
-                <ImageC src={img08} />
-              </Slide>
-              <Slide index={8}>
-                <ImageC src={img09} />
-              </Slide>
-              <Slide index={9}>
-                <ImageC src={img10} />
-              </Slide>
-              <Slide index={10}>
-                <ImageC src={img11} />
-              </Slide>
-              <Slide index={11}>
-                <ImageC src={img12} />
-              </Slide>
-              <Slide index={12}>
-                <ImageC src={img13} />
-              </Slide>
-              <Slide index={13}>
-                <ImageC src={img14} />
-              </Slide>
-              <Slide index={14}>
-                <ImageC src={img15} />
-              </Slide>
-              <Slide index={15}>
-                <ImageC src={img16} />
-              </Slide>
-            </Slider>
+        <div>
+          <div className='Segment__description--container'>
+            <p>Nasi goście zawsze wyjeżdząją uśmiechnięci i pełni wrażeń!</p>
+            <p>
+              <i>"Dzieci bawiły się znakomicie, my z żoną odpoczęliśmy od miejskiego zgiełku. Żal było wyjeżdżać!" </i>
+              - Tomasz, Kraków.
+            </p>
+            <p>
+              <i>"Dwa tygodnie minęły jak z bicza strzelił, na pewno wrócimy w przyszłym roku!" </i>
+              - Iwona, Zabrze.
+            </p>
+          </div>
 
-            <Divider />
-            <CarouselDotGroup slides={16} />
-          </CarouselProvider>
+          <div className='Segment__carousel--container'>
+            <CarouselProvider
+              naturalSlideWidth={1}
+              naturalSlideHeight={1}
+              totalSlides={16}
+            >
+              <Slider>
+                <Slide index={0}>
+                  <ImageC src={img01} />
+                </Slide>
+                <Slide index={1}>
+                  <ImageC src={img02} />
+                </Slide>
+                <Slide index={2}>
+                  <ImageC src={img03} />
+                </Slide>
+                <Slide index={3}>
+                  <ImageC src={img04} />
+                </Slide>
+                <Slide index={4}>
+                  <ImageC src={img05} />
+                </Slide>
+                <Slide index={5}>
+                  <ImageC src={img06} />
+                </Slide>
+                <Slide index={6}>
+                  <ImageC src={img07} />
+                </Slide>
+                <Slide index={7}>
+                  <ImageC src={img08} />
+                </Slide>
+                <Slide index={8}>
+                  <ImageC src={img09} />
+                </Slide>
+                <Slide index={9}>
+                  <ImageC src={img10} />
+                </Slide>
+                <Slide index={10}>
+                  <ImageC src={img11} />
+                </Slide>
+                <Slide index={11}>
+                  <ImageC src={img12} />
+                </Slide>
+                <Slide index={12}>
+                  <ImageC src={img13} />
+                </Slide>
+                <Slide index={13}>
+                  <ImageC src={img14} />
+                </Slide>
+                <Slide index={14}>
+                  <ImageC src={img15} />
+                </Slide>
+                <Slide index={15}>
+                  <ImageC src={img16} />
+                </Slide>
+              </Slider>
+
+              <Divider />
+              <CarouselDotGroup slides={16} />
+            </CarouselProvider>
+          </div>
+
+          <Image.Group size='small' className='Segment__img--container' >
+            <Image src={img01} />
+            <Image src={img02} />
+            <Image src={img03} />
+            <Image src={img04} />
+            <Image src={img05} />
+            <Image src={img06} />
+            <Image src={img07} />
+            <Image src={img08} />
+            <Image src={img09} />
+            <Image src={img10} />
+            <Image src={img11} />
+            <Image src={img12} />
+            <Image src={img13} />
+            <Image src={img14} />
+            <Image src={img15} />
+            <Image src={img16} />
+          </Image.Group>
         </div>
-        <br></br>
-        <Image.Group size='small' className='Segment__img--container' >
-          <Image src={img01} />
-          <Image src={img02} />
-          <Image src={img03} />
-          <Image src={img04} />
-          <Image src={img05} />
-          <Image src={img06} />
-          <Image src={img07} />
-          <Image src={img08} />
-          <Image src={img09} />
-          <Image src={img10} />
-          <Image src={img11} />
-          <Image src={img12} />
-          <Image src={img13} />
-          <Image src={img14} />
-          <Image src={img15} />
-          <Image src={img16} />
-        </Image.Group>
       </div>
     );
   };
