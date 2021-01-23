@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Divider, Image } from 'semantic-ui-react';
+import { Divider, Image, List } from 'semantic-ui-react';
 import { CarouselProvider, Image as ImageC, Slide, Slider } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
@@ -41,140 +41,214 @@ export default class Farm extends Component {
     return (
       <div>
         <h3>Gospodarstwo</h3>
-        <p>Opis gospodarstwa</p>
         
-        <div className='Segment__carousel--container'>
-          <CarouselProvider
-            naturalSlideWidth={1}
-            naturalSlideHeight={1}
-            totalSlides={29}
-          >
-            <Slider>
-              <Slide index={0}>
-                <ImageC src={img01} />
-              </Slide>
-              <Slide index={1}>
-                <ImageC src={img02} />
-              </Slide>
-              <Slide index={2}>
-                <ImageC src={img03} />
-              </Slide>
-              <Slide index={3}>
-                <ImageC src={img04} />
-              </Slide>
-              <Slide index={4}>
-                <ImageC src={img05} />
-              </Slide>
-              <Slide index={5}>
-                <ImageC src={img06} />
-              </Slide>
-              <Slide index={6}>
-                <ImageC src={img07} />
-              </Slide>
-              <Slide index={7}>
-                <ImageC src={img08} />
-              </Slide>
-              <Slide index={8}>
-                <ImageC src={img09} />
-              </Slide>
-              <Slide index={9}>
-                <ImageC src={img10} />
-              </Slide>
-              <Slide index={10}>
-                <ImageC src={img11} />
-              </Slide>
-              <Slide index={11}>
-                <ImageC src={img12} />
-              </Slide>
-              <Slide index={12}>
-                <ImageC src={img13} />
-              </Slide>
-              <Slide index={13}>
-                <ImageC src={img14} />
-              </Slide>
-              <Slide index={14}>
-                <ImageC src={img15} />
-              </Slide>
-              <Slide index={15}>
-                <ImageC src={img16} />
-              </Slide>
-              <Slide index={16}>
-                <ImageC src={img17} />
-              </Slide>
-              <Slide index={17}>
-                <ImageC src={img18} />
-              </Slide>
-              <Slide index={18}>
-                <ImageC src={img19} />
-              </Slide>
-              <Slide index={19}>
-                <ImageC src={img20} />
-              </Slide>
-              <Slide index={20}>
-                <ImageC src={img21} />
-              </Slide>
-              <Slide index={21}>
-                <ImageC src={img22} />
-              </Slide>
-              <Slide index={22}>
-                <ImageC src={img23} />
-              </Slide>
-              <Slide index={23}>
-                <ImageC src={img24} />
-              </Slide>
-              <Slide index={24}>
-                <ImageC src={img25} />
-              </Slide>
-              <Slide index={25}>
-                <ImageC src={img26} />
-              </Slide>
-              <Slide index={26}>
-                <ImageC src={img27} />
-              </Slide>
-              <Slide index={27}>
-                <ImageC src={img28} />
-              </Slide>
-              <Slide index={28}>
-                <ImageC src={img29} />
-              </Slide>
-            </Slider>
+        <div>
+          <div className='Segment__description--container'>
+            <p>W naszej nowej altance, wieczorem, możesz skorzystać z grila i ogrzać się przy ognisku.</p>
+            <p>Nowe pomieszczenie - świetlica, wyposażona w automaty do gier komputerowych, piłkarzyki i komputery z dostępem do internetu.</p>
+          </div>
 
-            <Divider />
-            <CarouselDotGroup slides={29}/>
-          </CarouselProvider>
+          <div className='Segment__carousel--container'>
+            <CarouselProvider
+              naturalSlideWidth={1}
+              naturalSlideHeight={1}
+              totalSlides={8}
+            >
+              <Slider>
+                <Slide index={0}>
+                  <ImageC src={img14} />
+                </Slide>
+                <Slide index={1}>
+                  <ImageC src={img12} />
+                </Slide>
+                <Slide index={2}>
+                  <ImageC src={img13} />
+                </Slide>
+                <Slide index={3}>
+                  <ImageC src={img15} />
+                </Slide>
+                <Slide index={4}>
+                  <ImageC src={img06} />
+                </Slide>
+                <Slide index={5}>
+                  <ImageC src={img08} />
+                </Slide>
+                <Slide index={6}>
+                  <ImageC src={img09} />
+                </Slide>
+                <Slide index={7}>
+                  <ImageC src={img10} />
+                </Slide>
+              </Slider>
+
+              <Divider />
+              <CarouselDotGroup slides={8}/>
+            </CarouselProvider>
+          </div>
+
+          <div className='Segment__carousel--container--2'>
+            <CarouselProvider
+              naturalSlideWidth={1}
+              naturalSlideHeight={1}
+              totalSlides={21}
+            >
+              <Slider>
+                <Slide index={0}>
+                  <ImageC src={img01} />
+                </Slide>
+                <Slide index={1}>
+                  <ImageC src={img02} />
+                </Slide>
+                <Slide index={2}>
+                  <ImageC src={img03} />
+                </Slide>
+                <Slide index={3}>
+                  <ImageC src={img04} />
+                </Slide>
+                <Slide index={4}>
+                  <ImageC src={img05} />
+                </Slide>
+                <Slide index={5}>
+                  <ImageC src={img07} />
+                </Slide>
+                <Slide index={6}>
+                  <ImageC src={img11} />
+                </Slide>
+                <Slide index={7}>
+                  <ImageC src={img16} />
+                </Slide>
+                <Slide index={8}>
+                  <ImageC src={img17} />
+                </Slide>
+                <Slide index={9}>
+                  <ImageC src={img18} />
+                </Slide>
+                <Slide index={10}>
+                  <ImageC src={img19} />
+                </Slide>
+                <Slide index={11}>
+                  <ImageC src={img20} />
+                </Slide>
+                <Slide index={12}>
+                  <ImageC src={img21} />
+                </Slide>
+                <Slide index={13}>
+                  <ImageC src={img22} />
+                </Slide>
+                <Slide index={14}>
+                  <ImageC src={img23} />
+                </Slide>
+                <Slide index={15}>
+                  <ImageC src={img24} />
+                </Slide>
+                <Slide index={16}>
+                  <ImageC src={img25} />
+                </Slide>
+                <Slide index={17}>
+                  <ImageC src={img26} />
+                </Slide>
+                <Slide index={18}>
+                  <ImageC src={img27} />
+                </Slide>
+                <Slide index={19}>
+                  <ImageC src={img28} />
+                </Slide>
+                <Slide index={20}>
+                  <ImageC src={img29} />
+                </Slide>
+              </Slider>
+
+              <Divider />
+              <CarouselDotGroup slides={21}/>
+            </CarouselProvider>
+          </div>
+
+          <div className='Segment__description--container--2'>
+            <List>
+              <List.Item>
+                <List.Content>  
+                  <List.Header>
+                    W naszym gospodarstwie do Państwa użytku są między innymi:
+                  </List.Header>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>  
+                  <List.Description>
+                    Dom z pokojami gościnnymi.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>
+                  <List.Description>
+                    Basen.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>
+                  <List.Description>
+                    Bungalow.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>
+                  <List.Description>
+                    Plac zabaw dla dzieci; zjeżdżalnie, huśtawki.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>
+                  <List.Description>
+                    Boisko do siatkówki.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Content>
+                  <List.Description>
+                    Ogród z baldachimem.
+                  </List.Description>
+                </List.Content>
+              </List.Item>
+            </List>
+          </div>
+
+          <Image.Group size='small' className='Segment__img--container' >
+            <Image src={img01} />
+            <Image src={img02} />
+            <Image src={img03} />
+            <Image src={img04} />
+            <Image src={img05} />
+            <Image src={img06} />
+            <Image src={img07} />
+            <Image src={img08} />
+            <Image src={img09} />
+            <Image src={img10} />
+            <Image src={img11} />
+            <Image src={img12} />
+            <Image src={img13} />
+            <Image src={img14} />
+            <Image src={img15} />
+            <Image src={img16} />
+            <Image src={img17} />
+            <Image src={img18} />
+            <Image src={img19} />
+            <Image src={img20} />
+            <Image src={img21} />
+            <Image src={img22} />
+            <Image src={img23} />
+            <Image src={img24} />
+            <Image src={img25} />
+            <Image src={img26} />
+            <Image src={img27} />
+            <Image src={img28} />
+            <Image src={img29} />
+          </Image.Group>
         </div>
-        <br></br>
-        <Image.Group size='small' className='Segment__img--container' >
-          <Image src={img01} />
-          <Image src={img02} />
-          <Image src={img03} />
-          <Image src={img04} />
-          <Image src={img05} />
-          <Image src={img06} />
-          <Image src={img07} />
-          <Image src={img08} />
-          <Image src={img09} />
-          <Image src={img10} />
-          <Image src={img11} />
-          <Image src={img12} />
-          <Image src={img13} />
-          <Image src={img14} />
-          <Image src={img15} />
-          <Image src={img16} />
-          <Image src={img17} />
-          <Image src={img18} />
-          <Image src={img19} />
-          <Image src={img20} />
-          <Image src={img21} />
-          <Image src={img22} />
-          <Image src={img23} />
-          <Image src={img24} />
-          <Image src={img25} />
-          <Image src={img26} />
-          <Image src={img27} />
-          <Image src={img28} />
-          <Image src={img29} />
-        </Image.Group>
       </div>
     );
   };
