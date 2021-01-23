@@ -18,7 +18,7 @@ import img14 from '../assets/photos/surroundings/okol_14.jpg';
 import img15 from '../assets/photos/surroundings/okol_15.jpg';
 import img16 from '../assets/photos/surroundings/okol_16.jpg';
 
-export default class ImagesSurroundings extends React.Component {
+export default class ImagesGuests extends React.Component {
 
     render() {
 

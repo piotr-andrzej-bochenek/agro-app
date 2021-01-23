@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import { Image } from 'semantic-ui-react';
 
 import img01 from '../assets/photos/rooms/pokoje_01.jpg';
