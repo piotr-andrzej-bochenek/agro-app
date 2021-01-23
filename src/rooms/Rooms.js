@@ -30,96 +30,103 @@ export default class Rooms extends Component {
     return (
       <div>
         <h3>Pokoje</h3>
-        <p>Opis pokoi i wyposażenia</p>
         
-        <div className='Segment__carousel--container'>
-          <CarouselProvider
-            naturalSlideWidth={1}
-            naturalSlideHeight={1}
-            totalSlides={18}
-          >
-            <Slider>
-              <Slide index={0}>
-                <ImageC src={img01} />
-              </Slide>
-              <Slide index={1}>
-                <ImageC src={img02} />
-              </Slide>
-              <Slide index={2}>
-                <ImageC src={img03} />
-              </Slide>
-              <Slide index={3}>
-                <ImageC src={img04} />
-              </Slide>
-              <Slide index={4}>
-                <ImageC src={img05} />
-              </Slide>
-              <Slide index={5}>
-                <ImageC src={img06} />
-              </Slide>
-              <Slide index={6}>
-                <ImageC src={img07} />
-              </Slide>
-              <Slide index={7}>
-                <ImageC src={img08} />
-              </Slide>
-              <Slide index={8}>
-                <ImageC src={img09} />
-              </Slide>
-              <Slide index={9}>
-                <ImageC src={img10} />
-              </Slide>
-              <Slide index={10}>
-                <ImageC src={img11} />
-              </Slide>
-              <Slide index={11}>
-                <ImageC src={img12} />
-              </Slide>
-              <Slide index={12}>
-                <ImageC src={img13} />
-              </Slide>
-              <Slide index={13}>
-                <ImageC src={img14} />
-              </Slide>
-              <Slide index={14}>
-                <ImageC src={img15} />
-              </Slide>
-              <Slide index={15}>
-                <ImageC src={img16} />
-              </Slide>
-              <Slide index={16}>
-                <ImageC src={img17} />
-              </Slide>
-              <Slide index={17}>
-                <ImageC src={img18} />
-              </Slide>
-            </Slider>
+        <div>
+          <div className='Segment__description--container'>
+            <p>Do dyspozycji gości jest samodzielna kuchnia. Przylega do niej stołówka na której można zjeść smaczny domowy posiłek</p>
+            <p>Łazienki o podwyższonym standardzie pozwolą poczuć się, jak u siebie w domu </p>
+          </div>
+          
+          <div className='Segment__carousel--container'>
+            <CarouselProvider
+              naturalSlideWidth={1}
+              naturalSlideHeight={1}
+              totalSlides={18}
+            >
+              <Slider>
+                <Slide index={0}>
+                  <ImageC src={img01} />
+                </Slide>
+                <Slide index={1}>
+                  <ImageC src={img02} />
+                </Slide>
+                <Slide index={2}>
+                  <ImageC src={img03} />
+                </Slide>
+                <Slide index={3}>
+                  <ImageC src={img04} />
+                </Slide>
+                <Slide index={4}>
+                  <ImageC src={img05} />
+                </Slide>
+                <Slide index={5}>
+                  <ImageC src={img06} />
+                </Slide>
+                <Slide index={6}>
+                  <ImageC src={img07} />
+                </Slide>
+                <Slide index={7}>
+                  <ImageC src={img08} />
+                </Slide>
+                <Slide index={8}>
+                  <ImageC src={img09} />
+                </Slide>
+                <Slide index={9}>
+                  <ImageC src={img10} />
+                </Slide>
+                <Slide index={10}>
+                  <ImageC src={img11} />
+                </Slide>
+                <Slide index={11}>
+                  <ImageC src={img12} />
+                </Slide>
+                <Slide index={12}>
+                  <ImageC src={img13} />
+                </Slide>
+                <Slide index={13}>
+                  <ImageC src={img14} />
+                </Slide>
+                <Slide index={14}>
+                  <ImageC src={img15} />
+                </Slide>
+                <Slide index={15}>
+                  <ImageC src={img16} />
+                </Slide>
+                <Slide index={16}>
+                  <ImageC src={img17} />
+                </Slide>
+                <Slide index={17}>
+                  <ImageC src={img18} />
+                </Slide>
+              </Slider>
 
-            <Divider />
-            <CarouselDotGroup slides={18} />
-          </CarouselProvider>
-        </div>
-        <br></br>
-        <Image.Group size='small' className='Segment__img--container' >
-          <Image src={img01} />
-          <Image src={img02} />
-          <Image src={img03} />
-          <Image src={img04} />
-          <Image src={img05} />
-          <Image src={img06} />
-          <Image src={img07} />
-          <Image src={img08} />
-          <Image src={img09} />
-          <Image src={img10} />
-          <Image src={img11} />
-          <Image src={img12} />
-          <Image src={img13} />
-          <Image src={img14} />
-          <Image src={img15} />
-          <Image src={img16} />
-          <Image src={img17} />
-          <Image src={img18} />
-        </Image.Group>
+              <Divider />
+              <CarouselDotGroup slides={18} />
+            </CarouselProvider>
+          </div>
+
+          <Image.Group size='small' className='Segment__img--container' >
+            <Image src={img01} />
+            <Image src={img02} />
+            <Image src={img03} />
+            <Image src={img04} />
+            <Image src={img05} />
+            <Image src={img06} />
+            <Image src={img07} />
+            <Image src={img08} />
+            <Image src={img09} />
+            <Image src={img10} />
+            <Image src={img11} />
+            <Image src={img12} />
+            <Image src={img13} />
+            <Image src={img14} />
+            <Image src={img15} />
+            <Image src={img16} />
+            <Image src={img17} />
+            <Image src={img18} />
+          </Image.Group>
+        </div>  
+
       </div>
     );
   };
