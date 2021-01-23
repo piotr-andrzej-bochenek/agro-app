@@ -26,9 +26,20 @@
   text-align: justify;
 }
 
+.Segment__description--container {
+  width: 30%;
+  float: left;
+  margin: 1em auto 2em;
+}
+
 .Segment__carousel--container {
-  width: 90%;
-  margin: auto;
+  width: 70%;
+  float: right;
+  margin: 1em auto 2em;
+}
+
+.Segment__img--container {
+  clear: both;
 }
 
 .horizontalSlider___281Ls {
