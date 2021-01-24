@@ -21,7 +21,7 @@ function App() {
         </h2>
         <i className='Header__subtitle'>Gospodarstwo agroturystyczne na Pomorzu Środkowym +48 999 999 999</i>
       </div>
-      <Router>
+      <Router basename="/agro">
         <Navbar />
         <Segment className='Segment'>
           <Links />
