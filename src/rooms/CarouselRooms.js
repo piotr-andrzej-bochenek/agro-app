@@ -36,58 +36,58 @@ export default class CarouselRooms extends React.Component {
             >
               <Slider>
                 <Slide index={0}>
-                  <Image src={img01} />
+                  <Image src={img01} alt='Pokój - część sypialna' />
                 </Slide>
                 <Slide index={1}>
-                  <Image src={img02} />
+                  <Image src={img02} alt='Pokój - część sypialna' />
                 </Slide>
                 <Slide index={2}>
-                  <Image src={img03} />
+                  <Image src={img03} alt='Pokój - część rekreacyjna' />
                 </Slide>
                 <Slide index={3}>
-                  <Image src={img04} />
+                  <Image src={img04} alt='Kuchnia' />
                 </Slide>
                 <Slide index={4}>
-                  <Image src={img05} />
+                  <Image src={img05} alt='Kuchnia' />
                 </Slide>
                 <Slide index={5}>
-                  <Image src={img06} />
+                  <Image src={img06} alt='Łazienka' />
                 </Slide>
                 <Slide index={6}>
-                  <Image src={img07} />
+                  <Image src={img07} alt='Łazienka' />
                 </Slide>
                 <Slide index={7}>
-                  <Image src={img08} />
+                  <Image src={img08} alt='Pokój - część rekreacyjna' />
                 </Slide>
                 <Slide index={8}>
-                  <Image src={img09} />
+                  <Image src={img09} alt='Łazienka - kabina' />
                 </Slide>
                 <Slide index={9}>
-                  <Image src={img10} />
+                  <Image src={img10} alt='Pokój - część sypialna' />
                 </Slide>
                 <Slide index={10}>
-                  <Image src={img11} />
+                  <Image src={img11} alt='Pokój na poddaszu - część sypialna' />
                 </Slide>
                 <Slide index={11}>
-                  <Image src={img12} />
+                  <Image src={img12} alt='Pokój z balkonem' />
                 </Slide>
                 <Slide index={12}>
-                  <Image src={img13} />
+                  <Image src={img13} alt='Łazienka - kabina' />
                 </Slide>
                 <Slide index={13}>
-                  <Image src={img14} />
+                  <Image src={img14} alt='Łazienka - kabina' />
                 </Slide>
                 <Slide index={14}>
-                  <Image src={img15} />
+                  <Image src={img15} alt='Aneks kuchenny' />
                 </Slide>
                 <Slide index={15}>
-                  <Image src={img16} />
+                  <Image src={img16} alt='Taras' />
                 </Slide>
                 <Slide index={16}>
-                  <Image src={img17} />
+                  <Image src={img17} alt='Pokój - część sypialna' />
                 </Slide>
                 <Slide index={17}>
-                  <Image src={img18} />
+                  <Image src={img18} alt='Jadalnia' />
                 </Slide>
               </Slider>
 
