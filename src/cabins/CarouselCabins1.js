@@ -21,13 +21,13 @@ export default class CarouselCabins1 extends React.Component {
             >
               <Slider>
                 <Slide index={0}>
-                  <Image src={img01} />
+                  <Image src={img01} alt='Wnętrze domku - część sypialna' />
                 </Slide>
                 <Slide index={1}>
-                  <Image src={img02} />
+                  <Image src={img02} alt='Wnętrze domku - aneks kuchenny' />
                 </Slide>
                 <Slide index={2}>
-                  <Image src={img03} />
+                  <Image src={img03} alt='Wnętrze domku - łazienka' />
                 </Slide>
               </Slider>
 

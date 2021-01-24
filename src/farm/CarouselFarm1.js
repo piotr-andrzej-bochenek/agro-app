@@ -26,28 +26,28 @@ export default class CarouselFarm1 extends React.Component {
             >
               <Slider>
                 <Slide index={0}>
-                  <Image src={img07} />
+                  <Image src={img07} alt='Altana, ławy i stół' />
                 </Slide>
                 <Slide index={1}>
-                  <Image src={img05} />
+                  <Image src={img05} alt='Kamienny grill' />
                 </Slide>
                 <Slide index={2}>
-                  <Image src={img06} />
+                  <Image src={img06} alt='Altana z grillem' />
                 </Slide>
                 <Slide index={3}>
-                  <Image src={img08} />
+                  <Image src={img08} alt='Boisko do siatkówki' />
                 </Slide>
                 <Slide index={4}>
-                  <Image src={img01} />
+                  <Image src={img01} alt='Świetlica' />
                 </Slide>
                 <Slide index={5}>
-                  <Image src={img02} />
+                  <Image src={img02} alt='Wnętrze świetlicy' />
                 </Slide>
                 <Slide index={6}>
-                  <Image src={img03} />
+                  <Image src={img03} alt='Wnętrze świetlicy - piłkarzyki i automaty' />
                 </Slide>
                 <Slide index={7}>
-                  <Image src={img04} />
+                  <Image src={img04} alt='Wnętrze świetlicy - komputery' />
                 </Slide>
               </Slider>
 
