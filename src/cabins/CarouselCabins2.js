@@ -32,46 +32,46 @@ export default class CarouselCabins2 extends React.Component {
             >
               <Slider>
                 <Slide index={0}>
-                  <Image src={img01} />
+                  <Image src={img01} alt='Domek' />
                 </Slide>
                 <Slide index={1}>
-                  <Image src={img02} />
+                  <Image src={img02} alt='Panorama przy domkach' />
                 </Slide>
                 <Slide index={2}>
-                  <Image src={img03} />
+                  <Image src={img03} alt='Dwa domki' />
                 </Slide>
                 <Slide index={3}>
-                  <Image src={img04} />
+                  <Image src={img04} alt='Dwa domki z huśtawką' />
                 </Slide>
                 <Slide index={4}>
-                  <Image src={img05} />
+                  <Image src={img05} alt='Dwa domk i wiatrak' />
                 </Slide>
                 <Slide index={5}>
-                  <Image src={img06} />
+                  <Image src={img06} alt='Ścieżka do domków' />
                 </Slide>
                 <Slide index={6}>
-                  <Image src={img07} />
+                  <Image src={img07} alt='Trawnik przed domkami' />
                 </Slide>
                 <Slide index={7}>
-                  <Image src={img08} />
+                  <Image src={img08} alt='Pomost' />
                 </Slide>
                 <Slide index={8}>
-                  <Image src={img09} />
+                  <Image src={img09} alt='Ścieżka do domków' />
                 </Slide>
                 <Slide index={9}>
-                  <Image src={img10} />
+                  <Image src={img10} alt='Cztery domki' />
                 </Slide>
                 <Slide index={10}>
-                  <Image src={img11} />
+                  <Image src={img11} alt='Domek zimą' />
                 </Slide>
                 <Slide index={11}>
-                  <Image src={img12} />
+                  <Image src={img12} alt='Dwa domki zimą' />
                 </Slide>
                 <Slide index={12}>
-                  <Image src={img13} />
+                  <Image src={img13} alt='Trzy domki zimą' />
                 </Slide>
                 <Slide index={13}>
-                  <Image src={img14} />
+                  <Image src={img14} alt='Otoczenie domków zimą' />
                 </Slide>
               </Slider>
 
