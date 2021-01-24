@@ -24,22 +24,22 @@ export default class ImagesGuests extends React.Component {
 
         return (
             <Image.Group size='small' className='Segment__img--container' >
-                <Image src={img01} />
-                <Image src={img02} />
-                <Image src={img03} />
-                <Image src={img04} />
-                <Image src={img05} />
-                <Image src={img06} />
-                <Image src={img07} />
-                <Image src={img08} />
-                <Image src={img09} />
-                <Image src={img10} />
-                <Image src={img11} />
-                <Image src={img12} />
-                <Image src={img13} />
-                <Image src={img14} />
-                <Image src={img15} />
-                <Image src={img16} />
+                <Image src={img01} alt='Goście przy grillu' />
+                <Image src={img02} alt='Goście w altanie' />
+                <Image src={img03} alt='Dzieci w altanie' />
+                <Image src={img04} alt='Zabawa z psem' />
+                <Image src={img05} alt='Pojenie psa' />
+                <Image src={img06} alt='Dzieci na zjeżdżalni' />
+                <Image src={img07} alt='Posiłek na świeżym powietrzu' />
+                <Image src={img08} alt='Kąpanie psa' />
+                <Image src={img09} alt='Gra w siatkówkę na boisku' />
+                <Image src={img10} alt='Przejażdżka na przyczepie' />
+                <Image src={img11} alt='Dzieci na przyczepie' />
+                <Image src={img12} alt='Gra w tenisa stołowego' />
+                <Image src={img13} alt='Zabawa na zjeżdżalni' />
+                <Image src={img14} alt='Zabawa na huśtawkach' />
+                <Image src={img15} alt='Zabawa przy oczku wodnym' />
+                <Image src={img16} alt='Zabawa w basenie ogrodowym' />
             </Image.Group>
         );
     };

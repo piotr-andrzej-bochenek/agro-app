@@ -26,24 +26,24 @@ export default class ImagesRooms extends React.Component {
 
         return (
             <Image.Group size='small' className='Segment__img--container' >
-                <Image src={img01} />
-                <Image src={img02} />
-                <Image src={img03} />
-                <Image src={img04} />
-                <Image src={img05} />
-                <Image src={img06} />
-                <Image src={img07} />
-                <Image src={img08} />
-                <Image src={img09} />
-                <Image src={img10} />
-                <Image src={img11} />
-                <Image src={img12} />
-                <Image src={img13} />
-                <Image src={img14} />
-                <Image src={img15} />
-                <Image src={img16} />
-                <Image src={img17} />
-                <Image src={img18} />
+                <Image src={img01} alt='Pokój - część sypialna' />
+                <Image src={img02} alt='Pokój - część sypialna' />
+                <Image src={img03} alt='Pokój - część rekreacyjna' />
+                <Image src={img04} alt='Kuchnia' />
+                <Image src={img05} alt='Kuchnia' />
+                <Image src={img06} alt='Łazienka' />
+                <Image src={img07} alt='Łazienka' />
+                <Image src={img08} alt='Pokój - część rekreacyjna' />
+                <Image src={img09} alt='Łazienka - kabina' />
+                <Image src={img10} alt='Pokój - część sypialna' />
+                <Image src={img11} alt='Pokój na poddaszu - część sypialna' />
+                <Image src={img12} alt='Pokój z balkonem' />
+                <Image src={img13} alt='Łazienka - kabina' />
+                <Image src={img14} alt='Łazienka - kabina' />
+                <Image src={img15} alt='Aneks kuchenny' />
+                <Image src={img16} alt='Taras' />
+                <Image src={img17} alt='Pokój - część sypialna' />
+                <Image src={img18} alt='Jadalnia' />
             </Image.Group>
         );
     };

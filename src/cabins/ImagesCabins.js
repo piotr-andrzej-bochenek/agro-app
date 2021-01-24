@@ -22,20 +22,20 @@ export default class ImagesCabins extends React.Component {
 
         return (
             <Image.Group size='small' className='Segment__img--container' >
-                <Image src={img01} />
-                <Image src={img02} />
-                <Image src={img03} />
-                <Image src={img04} />
-                <Image src={img05} />
-                <Image src={img06} />
-                <Image src={img07} />
-                <Image src={img08} />
-                <Image src={img09} />
-                <Image src={img10} />
-                <Image src={img11} />
-                <Image src={img12} />
-                <Image src={img13} />
-                <Image src={img14} />
+                <Image src={img01} alt='Domek' />
+                <Image src={img02} alt='Panorama przy domkach' />
+                <Image src={img03} alt='Dwa domki' />
+                <Image src={img04} alt='Dwa domki z huśtawką' />
+                <Image src={img05} alt='Dwa domk i wiatrak' />
+                <Image src={img06} alt='Ścieżka do domków' />
+                <Image src={img07} alt='Trawnik przed domkami' />
+                <Image src={img08} alt='Pomost' />
+                <Image src={img09} alt='Ścieżka do domków' />
+                <Image src={img10} alt='Cztery domki' />
+                <Image src={img11} alt='Domek zimą' />
+                <Image src={img12} alt='Dwa domki zimą' />
+                <Image src={img13} alt='Trzy domki zimą' />
+                <Image src={img14} alt='Otoczenie domków zimą' />
             </Image.Group>
         );
     };

@@ -37,35 +37,35 @@ export default class ImagesFarm extends React.Component {
 
         return (
             <Image.Group size='small' className='Segment__img--container' >
-                <Image src={img01} />
-                <Image src={img02} />
-                <Image src={img03} />
-                <Image src={img04} />
-                <Image src={img05} />
-                <Image src={img06} />
-                <Image src={img07} />
-                <Image src={img08} />
-                <Image src={img09} />
-                <Image src={img10} />
-                <Image src={img11} />
-                <Image src={img12} />
-                <Image src={img13} />
-                <Image src={img14} />
-                <Image src={img15} />
-                <Image src={img16} />
-                <Image src={img17} />
-                <Image src={img18} />
-                <Image src={img19} />
-                <Image src={img20} />
-                <Image src={img21} />
-                <Image src={img22} />
-                <Image src={img23} />
-                <Image src={img24} />
-                <Image src={img25} />
-                <Image src={img26} />
-                <Image src={img27} />
-                <Image src={img28} />
-                <Image src={img29} />
+                <Image src={img01} alt='Dom od frontu' />
+                <Image src={img02} alt='Dom od frontu' />
+                <Image src={img03} alt='Dom od frontu' />
+                <Image src={img04} alt='Dom od frontu' />
+                <Image src={img05} alt='Dom od frontu' />
+                <Image src={img06} alt='Świetlica' />
+                <Image src={img07} alt='Stołówka' />
+                <Image src={img08} alt='Wnętrze świetlicy' />
+                <Image src={img09} alt='Wnętrze świetlicy - piłkarzyki i automaty' />
+                <Image src={img10} alt='Wnętrze świetlicy - komputery' />
+                <Image src={img11} alt='Basen ogrodowy' />
+                <Image src={img12} alt='Kamienny grill' />
+                <Image src={img13} alt='Altana z grillem' />
+                <Image src={img14} alt='Altana, ławy i stół' />
+                <Image src={img15} alt='Boisko do siatkówki' />
+                <Image src={img16} alt='Ławy, stół i huśtawka' />
+                <Image src={img17} alt='Oczko wodne' />
+                <Image src={img18} alt='Oczko wodne - widok z okna' />
+                <Image src={img19} alt='Altana przy domkach' />
+                <Image src={img20} alt='Plac zabaw' />
+                <Image src={img21} alt='Huśtawka' />
+                <Image src={img22} alt='Huśtawki' />
+                <Image src={img23} alt='Pomost' />
+                <Image src={img24} alt='Pomost' />
+                <Image src={img25} alt='Ogródek warzywny' />
+                <Image src={img26} alt='Altanka ogrodowa' />
+                <Image src={img27} alt='Zjeżdżalnia' />
+                <Image src={img28} alt='Sad' />
+                <Image src={img29} alt='Kwiaty przed domem' />
             </Image.Group>
         );
     };
