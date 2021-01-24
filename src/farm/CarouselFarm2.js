@@ -39,67 +39,67 @@ export default class CarouselFarm2 extends React.Component {
             >
               <Slider>
                 <Slide index={0}>
-                  <Image src={img01} />
+                  <Image src={img01} alt='Dom od frontu' />
                 </Slide>
                 <Slide index={1}>
-                  <Image src={img02} />
+                  <Image src={img02} alt='Dom od frontu' />
                 </Slide>
                 <Slide index={2}>
-                  <Image src={img03} />
+                  <Image src={img03} alt='Dom od frontu' />
                 </Slide>
                 <Slide index={3}>
-                  <Image src={img04} />
+                  <Image src={img04} alt='Dom od frontu' />
                 </Slide>
                 <Slide index={4}>
-                  <Image src={img05} />
+                  <Image src={img05} alt='Dom od frontu' />
                 </Slide>
                 <Slide index={5}>
-                  <Image src={img06} />
+                  <Image src={img06} alt='Stołówka' />
                 </Slide>
                 <Slide index={6}>
-                  <Image src={img07} />
+                  <Image src={img07} alt='Basen ogrodowy' />
                 </Slide>
                 <Slide index={7}>
-                  <Image src={img08} />
+                  <Image src={img08} alt='Ławy, stół i huśtawka' />
                 </Slide>
                 <Slide index={8}>
-                  <Image src={img09} />
+                  <Image src={img09} alt='Oczko wodne' />
                 </Slide>
                 <Slide index={9}>
-                  <Image src={img10} />
+                  <Image src={img10} alt='Oczko wodne - widok z okna' />
                 </Slide>
                 <Slide index={10}>
-                  <Image src={img11} />
+                  <Image src={img11} alt='Altana przy domkach' />
                 </Slide>
                 <Slide index={11}>
-                  <Image src={img12} />
+                  <Image src={img12} alt='Plac zabaw' />
                 </Slide>
                 <Slide index={12}>
-                  <Image src={img13} />
+                  <Image src={img13} alt='Huśtawka' />
                 </Slide>
                 <Slide index={13}>
-                  <Image src={img14} />
+                  <Image src={img14} alt='Huśtawki' />
                 </Slide>
                 <Slide index={14}>
-                  <Image src={img15} />
+                  <Image src={img15} alt='Pomost' />
                 </Slide>
                 <Slide index={15}>
-                  <Image src={img16} />
+                  <Image src={img16} alt='Pomost' />
                 </Slide>
                 <Slide index={16}>
-                  <Image src={img17} />
+                  <Image src={img17} alt='Ogródek warzywny' />
                 </Slide>
                 <Slide index={17}>
-                  <Image src={img18} />
+                  <Image src={img18} alt='Altanka ogrodowa' />
                 </Slide>
                 <Slide index={18}>
-                  <Image src={img19} />
+                  <Image src={img19} alt='Zjeżdżalnia' />
                 </Slide>
                 <Slide index={19}>
-                  <Image src={img20} />
+                  <Image src={img20} alt='Sad' />
                 </Slide>
                 <Slide index={20}>
-                  <Image src={img21} />
+                  <Image src={img21} alt='Kwiaty przed domem' />
                 </Slide>
               </Slider>
 
